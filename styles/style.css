@@ -1,0 +1,106 @@
+/* shared content */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.primary-btn {
+  border: 0px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  width: 200px;
+  height: 64px;
+  padding: 18px 35px;
+  color: var(--White-Color, #fff);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+/* body section start */
+.header-container {
+  background: #fff8f3;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 230px 47px 230px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  color: var(--Dark-02, #474747);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px 20px;
+}
+ul li a {
+  text-decoration: none;
+}
+.nav-title {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 51px;
+}
+span {
+  color: #fd6e0a;
+  font-size: 45px;
+  font-weight: 800;
+}
+.banner {
+  display: flex;
+  padding: 30px 20px 0px 230px;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-info {
+  color: var(--Dark-02, #474747);
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.banner-title {
+  color: var(--Dark-01, #181818);
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.banner-description {
+  color: var(--Dark-03, #757575);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+#btnone {
+  border: 0px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 18px 35px;
+  color: var(--White-Color, #fff);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+  margin-right: 30px;
+}
+#btntwo {
+  padding: 18px 35px;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  margin-left: 0px;
+}
+.banner .profile-picture{
+    width: 800px;
+    height: 800px;
+}
