@@ -188,7 +188,8 @@ main section {
 /* resume section start */
 .resume-container {
   display: flex;
-  gap: 25px;
+  gap: 70px;
+  margin-top: 30px;
 }
 .summary-of-resume {
   color: var(--Dark-01, #181818);
