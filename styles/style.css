@@ -57,6 +57,7 @@ span {
   padding: 30px 20px 0px 230px;
   align-items: center;
   justify-content: space-between;
+  height: 798px;
 }
 .banner-content {
   max-width: 500px;
@@ -103,4 +104,5 @@ span {
 .banner .profile-picture{
     width: 800px;
     height: 800px;
+    margin-bottom: 0px;
 }
